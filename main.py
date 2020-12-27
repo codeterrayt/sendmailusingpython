@@ -5,8 +5,8 @@ server = smtplib.SMTP("smtp.gmail.com" , 587)
 server.starttls()
 
 
-server_login_mail = "automail.rohan@gmail.com"
-server_login_password = "zgR(6B3t" #new password : j:B{4b./R@h_HPZVH
+server_login_mail = "you account email"
+server_login_password = "your google account password" 
 
 server.login(server_login_mail,server_login_password)
 
